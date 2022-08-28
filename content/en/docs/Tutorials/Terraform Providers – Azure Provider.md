@@ -1,6 +1,6 @@
 ---
 title: "Terraform Providers – Azure Provider"
-date: 2020-18-11
+# date: 2020-18-11
 weight: 5
 description: >
   Terraform Providers – Azure Provider
