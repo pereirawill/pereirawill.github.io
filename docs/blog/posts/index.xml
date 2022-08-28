@@ -1,0 +1,91 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Will Pereira – Blog Posts</title>
+    <link>https://pereirawill.github.io/blog/posts/</link>
+    <description>Recent content in Blog Posts on Will Pereira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://pereirawill.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Blog: O que é Infrastructure as Code?</title>
+      <link>https://pereirawill.github.io/blog/2020/11/22/o-que-%C3%A9-infrastructure-as-code/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/blog/2020/11/22/o-que-%C3%A9-infrastructure-as-code/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_iho2OK_LDg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Terraform Providers – Azure Provider</title>
+      <link>https://pereirawill.github.io/blog/2020/11/19/terraform-providers-azure-provider/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/blog/2020/11/19/terraform-providers-azure-provider/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/t6GbHYsu6ew&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Azure – Criando uma Service Principal</title>
+      <link>https://pereirawill.github.io/blog/2020/11/14/azure-criando-uma-service-principal/</link>
+      <pubDate>Sat, 14 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/blog/2020/11/14/azure-criando-uma-service-principal/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/MpkFgVDaYH4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Blog: Instalando Terraform</title>
+      <link>https://pereirawill.github.io/blog/2020/11/10/instalando-terraform/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/blog/2020/11/10/instalando-terraform/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bSrV1Dr8py8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

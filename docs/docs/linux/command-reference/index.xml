@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Will Pereira – Command Reference</title>
+    <link>https://pereirawill.github.io/docs/linux/command-reference/</link>
+    <description>Recent content in Command Reference on Will Pereira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://pereirawill.github.io/docs/linux/command-reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: netcat</title>
+      <link>https://pereirawill.github.io/docs/linux/command-reference/netcat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/linux/command-reference/netcat/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

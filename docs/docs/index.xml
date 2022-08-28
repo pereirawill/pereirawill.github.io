@@ -1,0 +1,266 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Will Pereira – Documentation</title>
+    <link>https://pereirawill.github.io/docs/</link>
+    <description>Recent content in Documentation on Will Pereira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="https://pereirawill.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Overview</title>
+      <link>https://pereirawill.github.io/docs/ansible/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/ansible/overview/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Overview</title>
+      <link>https://pereirawill.github.io/docs/git/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/git/overview/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Instalation</title>
+      <link>https://pereirawill.github.io/docs/ansible/instalation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/ansible/instalation/</guid>
+      <description>
+        
+        
+        &lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;graph LR
+  Start --&amp;gt; Need{&amp;#34;Do I need diagrams&amp;#34;}
+  Need -- No --&amp;gt; Off[&amp;#34;Set params.mermaid.enable = false&amp;#34;]
+  Need -- Yes --&amp;gt; HaveFun[&amp;#34;Great!  Enjoy!&amp;#34;]
+&lt;/code&gt;&lt;/pre&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Instalation</title>
+      <link>https://pereirawill.github.io/docs/git/instalation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/git/instalation/</guid>
+      <description>
+        
+        
+        
+
+&lt;div class=&#34;pageinfo pageinfo-primary&#34;&gt;
+&lt;p&gt;This is a placeholder page that shows you how to use this template site.&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;How to install git?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Instalation</title>
+      <link>https://pereirawill.github.io/docs/kubernetes/instalation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/kubernetes/instalation/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Reference</title>
+      <link>https://pereirawill.github.io/docs/ansible/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/ansible/reference/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Reference</title>
+      <link>https://pereirawill.github.io/docs/kubernetes/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/kubernetes/reference/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Instalando Terraform</title>
+      <link>https://pereirawill.github.io/docs/tutorials/instalando-terraform/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/tutorials/instalando-terraform/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bSrV1Dr8py8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: O que é Infrastructure as Code?</title>
+      <link>https://pereirawill.github.io/docs/tutorials/o-que-e-infra-as-code/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/tutorials/o-que-e-infra-as-code/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/_iho2OK_LDg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Azure – Criando uma Service Principal</title>
+      <link>https://pereirawill.github.io/docs/tutorials/criando-uma-service-principal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/tutorials/criando-uma-service-principal/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/MpkFgVDaYH4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Hello Minikube</title>
+      <link>https://pereirawill.github.io/docs/kubernetes/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/kubernetes/overview/</guid>
+      <description>
+        
+        
+        &lt;!-- overview --&gt;
+&lt;p&gt;This tutorial shows you how to run a sample app
+on Kubernetes using minikube and Katacoda.
+Katacoda provides a free, in-browser Kubernetes environment.&lt;/p&gt;
+
+
+&lt;div class=&#34;alert alert-primary&#34; role=&#34;alert&#34;&gt;
+&lt;h4 class=&#34;alert-heading&#34;&gt;Note&lt;/h4&gt;
+
+    You can also follow this tutorial if you&amp;rsquo;ve installed minikube locally.
+See &lt;a href=&#34;https://minikube.sigs.k8s.io/docs/start/&#34;&gt;minikube start&lt;/a&gt; for installation instructions.
+
+&lt;/div&gt;
+
+&lt;!-- &lt;div class=&#34;alert alert-info note callout&#34; role=&#34;alert&#34;&gt;
+    &lt;strong&gt;[i18n] note&lt;/strong&gt; this is a test
+  &lt;/div&gt; --&gt;
+&lt;p&gt;teste&lt;/p&gt;
+&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Deploy a sample application to minikube.&lt;/li&gt;
+&lt;li&gt;Run the app.&lt;/li&gt;
+&lt;li&gt;View application logs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This tutorial provides a container image that uses NGINX to echo back all the requests.&lt;/p&gt;
+&lt;!-- lessoncontent --&gt;
+&lt;h2 id=&#34;create-a-minikube-cluster&#34;&gt;Create a minikube cluster&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Click &lt;strong&gt;Launch Terminal&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;!!! Success &amp;ldquo;Expected output&amp;rdquo;
+&lt;code&gt;{ .bash .no-copy } Hello World! &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;??? question &amp;ldquo;Are you seeing &lt;code&gt;curl: (6) Could not resolve host: hello.default.${LOADBALANCER_IP}.sslip.io&lt;/code&gt;?&amp;rdquo;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Terraform Providers – Azure Provider</title>
+      <link>https://pereirawill.github.io/docs/tutorials/terraform-providers-azure-provider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/tutorials/terraform-providers-azure-provider/</guid>
+      <description>
+        
+        
+        
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/t6GbHYsu6ew&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: netcat</title>
+      <link>https://pereirawill.github.io/docs/linux/command-reference/netcat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/linux/command-reference/netcat/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: </title>
+      <link>https://pereirawill.github.io/docs/git/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pereirawill.github.io/docs/git/reference/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
