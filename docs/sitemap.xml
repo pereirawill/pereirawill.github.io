@@ -2,35 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pereirawill.github.io/docs/ansible/</loc>
-  </url><url>
     <loc>https://pereirawill.github.io/docs/linux/command-reference/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/kubernetes/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/docs/linux/</loc>
   </url><url>
-    <loc>https://pereirawill.github.io/docs/ansible/overview/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/git/overview/</loc>
-  </url><url>
     <loc>https://pereirawill.github.io/docs/overview/</loc>
   </url><url>
-    <loc>https://pereirawill.github.io/docs/terraform/</loc>
-  </url><url>
     <loc>https://pereirawill.github.io/docs/vagrant/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/ansible/instalation/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/git/instalation/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/kubernetes/instalation/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/ansible/reference/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/kubernetes/reference/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/git/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/blog/2020/11/22/o-que-%C3%A9-infrastructure-as-code/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
@@ -51,8 +29,6 @@
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pereirawill.github.io/docs/tutorials/criando-uma-service-principal/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/kubernetes/overview/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/docs/tutorials/terraform-providers-azure-provider/</loc>
   </url><url>
@@ -82,30 +58,10 @@
     <loc>https://pereirawill.github.io/blog/2018/10/06/the-second-blog-post/</loc>
     <lastmod>2018-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pereirawill.github.io/docs/git/reference/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/about/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/ansible/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/categories/ansible/</loc>
-  </url><url>
     <loc>https://pereirawill.github.io/categories/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/devops/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/categories/devops/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/docs/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/git/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/categories/git/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/search/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/tags/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/test/</loc>
   </url>
 </urlset>

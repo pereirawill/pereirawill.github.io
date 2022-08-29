@@ -6,14 +6,12 @@ description: >
   What does your user need to understand about your project in order to use it - or potentially contribute to it? 
 ---
 
-{{% pageinfo %}}
+<!-- {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+{{% /pageinfo %}} -->
 
 
-```
-vagrant
-```
+Vagrant is a utility for managing the lifecycle of virtual machines. 
 
 
 Typing `vagrant` from the command line will display a list of all available commands.

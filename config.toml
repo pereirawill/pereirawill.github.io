@@ -1,14 +1,8 @@
-# baseURL = 'https://pereirawill.github.io/'
-languageCode = 'en-us'
-# title = 'My New Hugo Site'
-
-# theme = "docsy"
-publishDir = "docs"
-
 baseURL = "https://pereirawill.github.io"
+languageCode = 'en-us'
 title = "Will Pereira"
-
 theme = "docsy"
+publishDir = "docs"
 
 # Language settings
 contentDir = "content/en"
@@ -169,7 +163,7 @@ github_repo = "https://github.com/pereirawill/pereirawill.github.io"
 
 # Uncomment this if your GitHub repo does not have "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-github_branch= "master"
+# github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "d72aa9b2712488cc3"
