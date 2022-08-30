@@ -138,6 +138,9 @@ privacy_policy = "https://policies.google.com/privacy"
 # This menu appears only if you have at least one [params.versions] set.
 version_menu = "Releases"
 
+time_format_blog = "Monday, January 02, 2006"
+time_format_default = "January 02, 2006 at 3:04 PM PST"
+
 # Flag used in the "version-banner" partial to decide whether to display a 
 # banner on every page indicating that this is an archived version of the docs.
 # Set this flag to "true" if you want to display the banner.
