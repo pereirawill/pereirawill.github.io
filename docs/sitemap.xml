@@ -8,8 +8,6 @@
   </url><url>
     <loc>https://pereirawill.github.io/docs/overview/</loc>
   </url><url>
-    <loc>https://pereirawill.github.io/docs/vagrant/</loc>
-  </url><url>
     <loc>https://pereirawill.github.io/blog/2020/11/22/o-que-%C3%A9-infrastructure-as-code/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,6 +43,8 @@
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pereirawill.github.io/docs/linux/command-reference/netcat/</loc>
+  </url><url>
+    <loc>https://pereirawill.github.io/docs/vagrant/</loc>
   </url><url>
     <loc>https://pereirawill.github.io/blog/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>

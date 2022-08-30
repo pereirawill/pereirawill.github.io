@@ -35,8 +35,8 @@
 
 
 
-<link rel="preload" href="/scss/main.min.8949d5266d2312a426333ac5af688edb3dfdffdf16c443d3f39c54de28506e53.css" as="style">
-<link href="/scss/main.min.8949d5266d2312a426333ac5af688edb3dfdffdf16c443d3f39c54de28506e53.css" rel="stylesheet" integrity="">
+<link rel="preload" href="/scss/main.min.3e6d73c2401ec631bab22b5d3fcfa8f8bbc71c5d6117da84d3394906bd275c2d.css" as="style">
+<link href="/scss/main.min.3e6d73c2401ec631bab22b5d3fcfa8f8bbc71c5d6117da84d3394906bd275c2d.css" rel="stylesheet" integrity="">
 
 <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -182,7 +182,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>3: <a href="#pg-1b48f8b90dcaae984329696e60b01d2e">Vagrant</a></li>
+<li>3: <a href="#pg-8dbd4e302cd86a4d0f71f71ce3b300de">Tutorials</a></li>
 
 
     
@@ -193,6 +193,38 @@ This is the multi-page printable view of this section.
   
   
 
+  
+    
+    
+	
+<li>3.1: <a href="#pg-6e223cb5e02c4f70d9a58ad4e7db2c9a">Instalando Terraform</a></li>
+
+
+    
+  
+    
+    
+	
+<li>3.2: <a href="#pg-671f4fd2e9f908f01461f4f15437786a">O que é Infrastructure as Code?</a></li>
+
+
+    
+  
+    
+    
+	
+<li>3.3: <a href="#pg-7911738ad42c3d9d1cb8186baf929a5d">Azure – Criando uma Service Principal</a></li>
+
+
+    
+  
+    
+    
+	
+<li>3.4: <a href="#pg-d4c7d6133380fb3cbf1b40c73f782137">Terraform Providers – Azure Provider</a></li>
+
+
+    
   
 
     </ul>
@@ -201,7 +233,7 @@ This is the multi-page printable view of this section.
     
     
 	
-<li>4: <a href="#pg-8dbd4e302cd86a4d0f71f71ce3b300de">Tutorials</a></li>
+<li>4: <a href="#pg-1b48f8b90dcaae984329696e60b01d2e">Vagrant</a></li>
 
 
     
@@ -212,38 +244,6 @@ This is the multi-page printable view of this section.
   
   
 
-  
-    
-    
-	
-<li>4.1: <a href="#pg-6e223cb5e02c4f70d9a58ad4e7db2c9a">Instalando Terraform</a></li>
-
-
-    
-  
-    
-    
-	
-<li>4.2: <a href="#pg-671f4fd2e9f908f01461f4f15437786a">O que é Infrastructure as Code?</a></li>
-
-
-    
-  
-    
-    
-	
-<li>4.3: <a href="#pg-7911738ad42c3d9d1cb8186baf929a5d">Azure – Criando uma Service Principal</a></li>
-
-
-    
-  
-    
-    
-	
-<li>4.4: <a href="#pg-d4c7d6133380fb3cbf1b40c73f782137">Terraform Providers – Azure Provider</a></li>
-
-
-    
   
 
     </ul>
@@ -420,102 +420,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-1b48f8b90dcaae984329696e60b01d2e">3 - Vagrant</h1>
-    <div class="lead">What does your user need to understand about your project in order to use it - or potentially contribute to it?</div>
-	<!-- 
-
-<div class="pageinfo pageinfo-primary">
-<p>This is a placeholder page that shows you how to use this template site.</p>
-
-</div>
- -->
-<p>Vagrant is a utility for managing the lifecycle of virtual machines.</p>
-<p>Typing <code>vagrant</code> from the command line will display a list of all available commands.</p>
-<p>Be sure that you are in the same directory as the Vagrantfile when running these commands!</p>
-<h1 id="creating-a-vm">Creating a VM</h1>
-<ul>
-<li><code>vagrant init</code>           &ndash; Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image. Before you can do vagrant up, you&rsquo;ll need to specify a base image in the Vagrantfile.</li>
-<li><code>vagrant init &lt;boxpath&gt;</code> &ndash; Initialize Vagrant with a specific box. To find a box, go to the <a href="https://app.vagrantup.com/boxes/search">public Vagrant box catalog</a>. When you find one you like, just replace it&rsquo;s name with boxpath. For example, <code>vagrant init ubuntu/trusty64</code>.</li>
-</ul>
-<h1 id="starting-a-vm">Starting a VM</h1>
-<ul>
-<li><code>vagrant up</code>                  &ndash; starts vagrant environment (also provisions only on the FIRST vagrant up)</li>
-<li><code>vagrant resume</code>              &ndash; resume a suspended machine (vagrant up works just fine for this as well)</li>
-<li><code>vagrant provision</code>           &ndash; forces reprovisioning of the vagrant machine</li>
-<li><code>vagrant reload</code>              &ndash; restarts vagrant machine, loads new Vagrantfile configuration</li>
-<li><code>vagrant reload --provision</code>  &ndash; restart the virtual machine and force provisioning</li>
-</ul>
-<h1 id="getting-into-a-vm">Getting into a VM</h1>
-<ul>
-<li><code>vagrant ssh</code>           &ndash; connects to machine via SSH</li>
-<li><code>vagrant ssh &lt;boxname&gt;</code> &ndash; If you give your box a name in your Vagrantfile, you can ssh into it with boxname. Works from any directory.</li>
-</ul>
-<h1 id="stopping-a-vm">Stopping a VM</h1>
-<ul>
-<li><code>vagrant halt</code>        &ndash; stops the vagrant machine</li>
-<li><code>vagrant suspend</code>     &ndash; suspends a virtual machine (remembers state)</li>
-</ul>
-<h1 id="cleaning-up-a-vm">Cleaning Up a VM</h1>
-<ul>
-<li><code>vagrant destroy</code>     &ndash; stops and deletes all traces of the vagrant machine</li>
-<li><code>vagrant destroy -f</code>   &ndash; same as above, without confirmation</li>
-</ul>
-<h1 id="boxes">Boxes</h1>
-<ul>
-<li><code>vagrant box list</code>              &ndash; see a list of all installed boxes on your computer</li>
-<li><code>vagrant box add &lt;name&gt; &lt;url&gt;</code>  &ndash; download a box image to your computer</li>
-<li><code>vagrant box outdated</code>          &ndash; check for updates vagrant box update</li>
-<li><code>vagrant box remove &lt;name&gt;</code>   &ndash; deletes a box from the machine</li>
-<li><code>vagrant package</code>               &ndash; packages a running virtualbox env in a reusable box</li>
-</ul>
-<h1 id="saving-progress">Saving Progress</h1>
-<p>-<code>vagrant snapshot save [options] [vm-name] &lt;name&gt;</code> &ndash; vm-name is often <code>default</code>. Allows us to save so that we can rollback at a later time</p>
-<h1 id="tips">Tips</h1>
-<ul>
-<li><code>vagrant -v</code>                    &ndash; get the vagrant version</li>
-<li><code>vagrant status</code>                &ndash; outputs status of the vagrant machine</li>
-<li><code>vagrant global-status</code>         &ndash; outputs status of all vagrant machines</li>
-<li><code>vagrant global-status --prune</code> &ndash; same as above, but prunes invalid entries</li>
-<li><code>vagrant provision --debug</code>     &ndash; use the debug flag to increase the verbosity of the output</li>
-<li><code>vagrant push</code>                  &ndash; yes, vagrant can be configured to <a href="http://docs.vagrantup.com/v2/push/index.html">deploy code</a>!</li>
-<li><code>vagrant up --provision | tee provision.log</code>  &ndash; Runs <code>vagrant up</code>, forces provisioning and logs all output to a file</li>
-</ul>
-<h1 id="plugins">Plugins</h1>
-<ul>
-<li><a href="https://github.com/cogitatio/vagrant-hostsupdater">vagrant-hostsupdater</a> : <code>$ vagrant plugin install vagrant-hostsupdater</code> to update your <code>/etc/hosts</code> file automatically each time you start/stop your vagrant box.</li>
-</ul>
-<h1 id="notes">Notes</h1>
-<ul>
-<li>If you are using <a href="https://github.com/varying-vagrant-vagrants/vvv/">VVV</a>, you can enable xdebug by running <code>vagrant ssh</code> and then <code>xdebug_on</code> from the virtual machine&rsquo;s CLI.</li>
-</ul>
-
-</div>
-
-
-
-    
-      
-  
-  
-  
-  
-
-  
-  
-
-  
-
-    
-	
-  
-    
-    
-	
-    
-
-<div class="td-content" style="page-break-before: always">
-    
-	<h1 id="pg-8dbd4e302cd86a4d0f71f71ce3b300de">4 - Tutorials</h1>
+	<h1 id="pg-8dbd4e302cd86a4d0f71f71ce3b300de">3 - Tutorials</h1>
     <div class="lead">Show your user how to work through some end to end examples.</div>
 	
 
@@ -548,7 +453,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-6e223cb5e02c4f70d9a58ad4e7db2c9a">4.1 - Instalando Terraform</h1>
+	<h1 id="pg-6e223cb5e02c4f70d9a58ad4e7db2c9a">3.1 - Instalando Terraform</h1>
     <div class="lead">Instalando o Terraform no Windows, Linux e MacOS</div>
 	
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -570,7 +475,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-671f4fd2e9f908f01461f4f15437786a">4.2 - O que é Infrastructure as Code?</h1>
+	<h1 id="pg-671f4fd2e9f908f01461f4f15437786a">3.2 - O que é Infrastructure as Code?</h1>
     <div class="lead">Nesse vídeo você vai entender o que é Infrastructure as Code.</div>
 	
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -592,7 +497,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-7911738ad42c3d9d1cb8186baf929a5d">4.3 - Azure – Criando uma Service Principal</h1>
+	<h1 id="pg-7911738ad42c3d9d1cb8186baf929a5d">3.3 - Azure – Criando uma Service Principal</h1>
     <div class="lead">Azure – Criando uma Service Principal</div>
 	
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -614,7 +519,7 @@ This is the multi-page printable view of this section.
 
 <div class="td-content" style="page-break-before: always">
     
-	<h1 id="pg-d4c7d6133380fb3cbf1b40c73f782137">4.4 - Terraform Providers – Azure Provider</h1>
+	<h1 id="pg-d4c7d6133380fb3cbf1b40c73f782137">3.4 - Terraform Providers – Azure Provider</h1>
     <div class="lead">Terraform Providers – Azure Provider</div>
 	
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -628,6 +533,135 @@ This is the multi-page printable view of this section.
 
     
 	
+  
+
+    
+	
+  
+    
+    
+	
+    
+
+<div class="td-content" style="page-break-before: always">
+    
+	<h1 id="pg-1b48f8b90dcaae984329696e60b01d2e">4 - Vagrant</h1>
+    <div class="lead">Vagrant is a utility for managing the lifecycle of virtual machines.</div>
+	<p>Vagrant is a very powerful tool to manage and create virtual machines and development environments! You can easily create a virtual environment by defining a Vagrantfile that can be shared across your team or anyone.</p>
+<p>You can test deployment tools, scripts and configurations in a disposable environment.</p>
+<p>It can a be a cheaper and quicker way to test deployments and Infrastructure as code config.</p>
+<h2 id="1-getting-started">1. Getting Started</h2>
+<p>To install vagrant check Hashicorp documentation <a href="https://www.vagrantup.com/docs/installation">here</a>.
+You will also need to install a provider such as <a href="https://www.virtualbox.org/wiki/Downloads">virtualbox</a> or Hyper-V.</p>
+<p>Once you have  vagrant installed, type <code>vagrant</code> and see the list of available commands.</p>
+
+
+<div class="alert alert-primary" role="alert">
+<h4 class="alert-heading">Note</h4>
+
+    Make sure you are in the same directory as the Vagrantfile when running these commands!.
+
+</div>
+
+<h2 id="2-autocompletion">2. Autocompletion</h2>
+<p>Vagrant provides the ability to autocomplete commands. Currently, the bash and zsh shells are supported.
+These can be enabled by running <code>vagrant autocomplete install --bash --zsh</code>.</p>
+<h2 id="3-creating-a-vm">3. Creating a VM</h2>
+<ul>
+<li><code>vagrant init</code>           &ndash; Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image. Before you can do vagrant up, you&rsquo;ll need to specify a base image in the Vagrantfile.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> $ vagrant init
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>A <span style="color:#4e9a06">`</span>Vagrantfile<span style="color:#4e9a06">`</span> has been placed in this directory. You are now
+</span></span><span style="display:flex;"><span>ready to <span style="color:#4e9a06">`</span>vagrant up<span style="color:#4e9a06">`</span> your first virtual environment! Please <span style="color:#204a87">read</span>
+</span></span><span style="display:flex;"><span>the comments in the Vagrantfile as well as documentation on
+</span></span><span style="display:flex;"><span><span style="color:#4e9a06">`</span>vagrantup.com<span style="color:#4e9a06">`</span> <span style="color:#204a87;font-weight:bold">for</span> more information on using Vagrant.
+</span></span></code></pre></div><ul>
+<li><code>vagrant init &lt;boxpath&gt;</code> &ndash; Initialize Vagrant with a specific box.
+To find a box, go to the <a href="https://app.vagrantup.com/boxes/search">public Vagrant box catalog</a>. Choose a box according to your provider, hyperv, virtualbox, libvirt. Once you found a box you like, just replace it&rsquo;s name with boxpath.
+For example, <code>vagrant init ubuntu/trusty64</code>.</li>
+</ul>
+<h2 id="4-setting-your-provider">4. Setting your provider</h2>
+<p>If you work with multiple providers you might need to set/change the default provider when using vagrant up.</p>
+<p>You can set a provider when running vagrant up or using an environment variable.</p>
+<ul>
+<li><code>vagrant up --provider=hyperv</code></li>
+<li><code>vagrant up --provider=virtualbox</code></li>
+<li><code>vagrant up --provider=libvirt</code></li>
+</ul>
+<h3 id="setting-provider-with-an-environment-variable">Setting provider with an environment variable</h3>
+<h4 id="on-linuxmacos">on linux/MacOs</h4>
+<p><code>export VAGRANT_DEFAULT_PROVIDER=&quot;virtualbox&quot;</code> <br>
+<code>export VAGRANT_DEFAULT_PROVIDER=&quot;vmware_desktop&quot;</code><br>
+<code>export VAGRANT_DEFAULT_PROVIDER=&quot;libvirt&quot;</code></p>
+<h4 id="on-windows">on Windows</h4>
+<p><code>[Environment]::SetEnvironmentVariable(&quot;VAGRANT_DEFAULT_PROVIDER&quot;, &quot;hyperv&quot;, &quot;User&quot;)</code></p>
+<h2 id="5-starting-a-vm">5. Starting a VM</h2>
+<ul>
+<li><code>vagrant up</code>                  &ndash; starts vagrant environment (also provisions only on the FIRST vagrant up)</li>
+<li><code>vagrant resume</code>              &ndash; resume a suspended machine (vagrant up works just fine for this as well)</li>
+<li><code>vagrant provision</code>           &ndash; forces reprovisioning of the vagrant machine</li>
+<li><code>vagrant reload</code>              &ndash; restarts vagrant machine, loads new Vagrantfile configuration</li>
+<li><code>vagrant reload --provision</code>  &ndash; restart the virtual machine and force provisioning</li>
+</ul>
+<h2 id="6-getting-into-a-vm">6. Getting into a VM</h2>
+<ul>
+<li><code>vagrant ssh</code>           &ndash; connects to machine via SSH</li>
+<li><code>vagrant ssh &lt;boxname&gt;</code> &ndash; If you give your box a name in your Vagrantfile, you can ssh into it with boxname. Works from any directory.</li>
+</ul>
+<h2 id="7-stopping-a-vm">7. Stopping a VM</h2>
+<ul>
+<li><code>vagrant halt</code>        &ndash; stops the vagrant machine</li>
+<li><code>vagrant suspend</code>     &ndash; suspends a virtual machine (remembers state)</li>
+</ul>
+<h2 id="8-cleaning-up-a-vm">8. Cleaning Up a VM</h2>
+<ul>
+<li><code>vagrant destroy</code>     &ndash; stops and deletes all traces of the vagrant machine</li>
+<li><code>vagrant destroy -f</code>   &ndash; same as above, without confirmation</li>
+</ul>
+<h2 id="9-boxes">9. Boxes</h2>
+<ul>
+<li><code>vagrant box list</code>              &ndash; see a list of all installed boxes on your computer</li>
+<li><code>vagrant box add &lt;name&gt; &lt;url&gt;</code>  &ndash; download a box image to your computer</li>
+<li><code>vagrant box outdated</code>          &ndash; check for updates vagrant box update</li>
+<li><code>vagrant box remove &lt;name&gt;</code>   &ndash; deletes a box from the machine</li>
+<li><code>vagrant package</code>               &ndash; packages a running virtualbox env in a reusable box</li>
+</ul>
+<h2 id="10-saving-progress">10. Saving Progress</h2>
+<p>-<code>vagrant snapshot save [options] [vm-name] &lt;name&gt;</code> &ndash; vm-name is often <code>default</code>. Allows us to save so that we can rollback at a later time</p>
+<h2 id="11-tips">11. Tips</h2>
+<ul>
+<li><code>vagrant -v</code>                    &ndash; get the vagrant version</li>
+<li><code>vagrant status</code>                &ndash; outputs status of the vagrant machine</li>
+<li><code>vagrant global-status</code>         &ndash; outputs status of all vagrant machines</li>
+<li><code>vagrant global-status --prune</code> &ndash; same as above, but prunes invalid entries</li>
+<li><code>vagrant provision --debug</code>     &ndash; use the debug flag to increase the verbosity of the output</li>
+<li><code>vagrant push</code>                  &ndash; yes, vagrant can be configured to <a href="http://docs.vagrantup.com/v2/push/index.html">deploy code</a>!</li>
+<li><code>vagrant up --provision | tee provision.log</code>  &ndash; Runs <code>vagrant up</code>, forces provisioning and logs all output to a file</li>
+</ul>
+<h2 id="12-plugins">12. Plugins</h2>
+<p><code>vagrant plugin install</code>
+<code>vagrant plugin install my-plugin</code>
+<code>vagrant plugin uninstall my-plugin</code></p>
+<h2 id="13-notes">13. Notes</h2>
+<ul>
+<li>If you are using <a href="https://github.com/varying-vagrant-vagrants/vvv/">VVV</a>, you can enable xdebug by running <code>vagrant ssh</code> and then <code>xdebug_on</code> from the virtual machine&rsquo;s CLI.</li>
+</ul>
+
+</div>
+
+
+
+    
+      
+  
+  
+  
+  
+
+  
+  
+
   
 
     
