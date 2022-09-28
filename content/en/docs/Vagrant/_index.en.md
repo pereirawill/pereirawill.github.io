@@ -48,7 +48,7 @@ You can set a provider when running vagrant up or using an environment variable.
 - `vagrant up --provider=virtualbox`
 - `vagrant up --provider=libvirt`
 
-### Setting provider with an environment variable
+### 4.1 Setting provider with an environment variable
 #### on linux/MacOs
 `export VAGRANT_DEFAULT_PROVIDER="virtualbox"` <br>
 `export VAGRANT_DEFAULT_PROVIDER="vmware_desktop"`<br>
