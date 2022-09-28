@@ -1,67 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://pereirawill.github.io/docs/linux/command-reference/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/linux/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/overview/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2020/11/22/o-que-%C3%A9-infrastructure-as-code/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2020/11/19/terraform-providers-azure-provider/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2020/11/14/azure-criando-uma-service-principal/</loc>
-    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2020/11/10/instalando-terraform/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/tutorials/instalando-terraform/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/tutorials/o-que-e-infra-as-code/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/tutorials/criando-uma-service-principal/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/tutorials/terraform-providers-azure-provider/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/tutorials/</loc>
-    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/posts/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/news/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/</loc>
-    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/linux/command-reference/netcat/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/docs/vagrant/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2018/10/06/easy-documentation-with-docsy/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/blog/2018/10/06/the-second-blog-post/</loc>
-    <lastmod>2018-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pereirawill.github.io/categories/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/search/</loc>
-  </url><url>
-    <loc>https://pereirawill.github.io/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://pereirawill.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://pereirawill.github.io/pt-br/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
